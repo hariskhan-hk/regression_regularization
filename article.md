@@ -26,6 +26,8 @@ Three popular regularization techniques are:
 - **Lasso Regression (L1 Regularization)**
 - **Elastic Net (Combination of L1 and L2 Regularization)**
 
+![Types Of Regularization](./ridgelassoelasticnet.png)
+
 ## Ridge Regression (L2)
 
 Ridge adds the sum of the squares of the coefficients to the loss function:
