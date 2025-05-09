@@ -139,5 +139,13 @@ plt.axhline(0, color='black', linewidth=0.8, linestyle='--')
 plt.tight_layout()
 plt.show()
 ```
-
 ![Graphical Comparison](./GraphicalComparison.png)
+
+This bar chart compares the coefficients assigned by Linear, Ridge, Lasso, and ElasticNet regression models across 10 features (X0 to X9):
+
+- Linear Regression (blue) assigns large positive or negative weights, especially for X4, and X8, indicating overfitting due to lack of regularization.
+- Ridge (orange) reduces the magnitude of these extreme coefficients but retains all features, note how X4's impact is drastically lessened.
+- Lasso (green) sets several coefficients (X5, and X7) exactly to zero, performing feature selection.
+- ElasticNet (red) applies both L1 and L2 penalties, it shrinks all coefficients significantly and, like Lasso, zeroes out less important ones (e.g., X5, X7, X9), offering a balance between shrinkage and sparsity.
+
+In a nutshell, regularization improves model generalization by controlling complexity. Ridge, Lasso, and ElasticNet each offer unique strengths, so choose based on your data's sparsity, dimensionality, and correlation. When in doubt, ElasticNet is often a reliable middle ground.
