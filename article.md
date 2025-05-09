@@ -92,14 +92,14 @@ from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
 from sklearn.model_selection import train_test_split
 import pandas as pd
 import matplotlib.pyplot as plt
-```  <!-- Close code block here -->
+```
 
 ### 2. Load DataSet
 
 ```python
 X, y = load_diabetes(return_X_y=True)
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-```  <!-- Close code block here -->
+```
 
 ### 3. Train Linear, Ridge, and Lasso
 
@@ -125,10 +125,9 @@ coef_df = pd.DataFrame({
     'ElasticNet': elastic.coef_
 })
 print(coef_df)
-```  <!-- Close code block here -->
+```
 
 ![coef_df](./coef_df.png)
-
 
 ### 4. Visualization
 
@@ -139,5 +138,6 @@ plt.ylabel("Coefficient Value")
 plt.axhline(0, color='black', linewidth=0.8, linestyle='--')
 plt.tight_layout()
 plt.show()
-```  <!-- Close code block here -->
+```
+
 ![Graphical Comparison](./Graphical Comparison.png)
