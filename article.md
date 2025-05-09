@@ -66,7 +66,7 @@ It encourages sparsity by shrinking some coefficients exactly to zero, making it
 
 Elastic Net combines both L1 and L2 penalties, offering the advantages of both Ridge and Lasso:
 
-![Elastic Net Formula](./ElasticNetLoss - (L1+L2).png)
+![Elastic Net Formula](./ElasticNetLoss-(L1+L2).png)
 
 It's especially useful when you have many features, some of which are correlated and potentially irrelevant.
 
@@ -140,4 +140,4 @@ plt.tight_layout()
 plt.show()
 ```
 
-![Graphical Comparison](./Graphical Comparison.png)
+![Graphical Comparison](./GraphicalComparison.png)
