@@ -11,14 +11,16 @@ This repository contains a practical comparison of three commonly used regulariz
 
 ## Article
 
-This project is based on the following article:  
+This project is based on the following article:
+
 [Ridge vs. Lasso vs. Elastic Net: Which Regularization Technique Should You Use?](https://medium.com/@hariskhan_hk/ridge-vs-lasso-vs-elastic-net-which-regularization-technique-should-you-use-19a4b81ace72)
 
 If Medium is unavailable, a copy of the article is available in `article.md`.
 
 ## Colab Notebook
 
-You can view and run the code in Google Colab:  
+You can view and run the code in Google Colab:
+
 [Open in Colab](https://colab.research.google.com/drive/1kbKs9Wz1GMQOcpmIe3nTRaSEsR0KY4fg?usp=sharing)
 
 Notebook: `Regularization_Comparison.ipynb`  
